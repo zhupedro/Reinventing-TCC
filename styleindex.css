@@ -1,0 +1,55 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f5e5a6;
+}
+.container {
+    text-align: center;
+    width: 300px;
+    background-color: #f5e5a6;
+    padding: 20px;
+}
+h1 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 20px;
+    position: absolute;
+    height: 500px;
+}
+.estudante-todos{
+    display: grid;
+    text-align: center;
+    grid-template-columns: 40% 30% 30% 40%;
+}
+.estudante{
+    left:36%;
+    top: 100px;
+    position: absolute;
+    padding:24px 0;
+}
+.avataraluno{
+    width: 140px;
+}
+.avataraluna{
+    width: 120px;
+}
+.footer-icons {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    margin-top: 20px;
+    background-color: #e0e0e0;
+}
+.estudante-div{
+    text-align: center;
+    padding:16px 0;
+}
+.footer-icons img {
+    width: 30px;
+    height: auto;
+}
